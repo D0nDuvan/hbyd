@@ -1,0 +1,326 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(0, 0, 0) !important;
+}
+nav{
+    margin-top: 3em;
+    background-color: rgb(0, 0, 0)!important;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(255, 94, 0);
+    font-size: 1.5em;
+    transition: all 0.5s ease;
+}
+nav .btn{
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(255, 94, 0);
+    font-size: 1.5em;
+    border: none;
+    transition: all 0.5s ease;
+}
+nav .btn:hover{
+    border-radius: 0.5em;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 94, 0);
+    padding: 0 0.5em 0 0.5em;
+    transition: all 0.5s ease;
+}
+nav a:hover{
+    border-radius: 0.5em;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 94, 0);
+    padding: 0 0.5em 0 0.5em;
+    transition: all 0.5s ease;
+}
+nav img{
+    width: 15em;
+}
+.offcanvas{
+    background-color: rgb(41, 41, 41) !important;
+    color: white !important;
+}
+.offcanvas .btn-close{
+    background-color: white;
+}
+.offcanvas img{
+    width: 2em;
+    height: 2em;
+}
+.offcanvas #gmail{
+    padding-top: 3em;
+    font-size: 1.2em;
+    text-align: center;
+}
+.offcanvas #instagram{
+    font-size: 1.2em;
+    text-align: center;
+}
+.offcanvas #twitter{
+    font-size: 1.2em;
+    text-align: center;
+}
+.offcanvas #whatsapp{
+    font-size: 1.2em;
+    text-align: center;
+}
+header{
+    padding-top: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(img/fondo\ 2.jpg);
+    background-size: cover;
+}
+
+header img{
+    width: 25em ;
+    transition: all 0.5s ease;
+}
+header img:hover{
+    width: 27em ;
+    transition: all 0.5s ease;
+}
+.accordion{
+    width: 50em;
+}
+.accordion img{
+    width: 3em !important;
+    
+}
+.accordion .accordion-button::after{
+ background-color: rgb(255, 94, 0);
+ border-radius: 0.5em;
+}
+.accordion .accordion-button{
+    font-size: 0.8em;
+}
+.accordion .accordion-body{
+    font-size: 1.1em;
+}
+
+header .accordion-button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+header .accordion-body {
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(255, 94, 0) !important;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+#uno{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#uno #primero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#uno #carouselExampleFade img{
+    width: 42em !important;
+    height: 33em;
+}
+
+#uno #carouselExampleFade{
+    width: 43em;
+    height: 33em;
+}
+#uno #primero .card{
+    margin-top: 5em;
+}
+#uno #segundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#uno #carouselExampleFadedos img{
+    width: 42em !important;
+    height: 33em;
+}
+#uno #carouselExampleFadedos{
+    width: 43em;
+    height: 33em;
+}
+#uno #segundo .card{
+    margin-top: 5em;
+}
+#dos{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#dos #tercero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#dos #carouselExampleFadetres video{
+    width: 42em !important;
+    height: 33em;
+}
+#dos #carouselExampleFadetres{
+    width: 43em;
+    height: 33em;
+}
+
+#dos #tercero .card{
+    margin-top: 5em;
+}
+
+#dos #cuarto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#dos #carouselExampleFadecuatro img{
+    width: 42em !important;
+    height: 33em;
+}
+#dos #carouselExampleFadecuatro{
+    width: 43em;
+    height: 33em;
+}
+
+#dos #cuarto .card{
+    margin-top: 5em;
+}
+
+.card img{
+    width: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: green;
+}
+footer img{
+    margin-top: 5em;
+    width: 100%;
+}
+
+@media only screen and (max-width: 650px) and (min-width: 450px) {
+    nav{
+    justify-content: space-evenly;
+    }
+    nav a{
+        font-size: 1em;
+    }
+    nav .btn{
+        font-size: 1em;
+    }
+   nav img{
+    width: 5em;
+   }
+   .offcanvas{
+    width: 50em;
+   }
+   header{
+    flex-direction: column;
+    background-size: cover;
+   }
+   header img{
+    width: 16em;
+   }
+   header img:hover{
+    width: 18em ;
+}
+   .accordion{
+    padding-top: 2em;
+    width: 24em;
+   }
+   .accordion img{
+    width: 2em !important;
+    
+}
+   .accordion .accordion-button{
+    font-size: 0.5em;
+}
+.accordion .accordion-body{
+    font-size: 0.8em;
+}
+h1{
+    font-size: 0.5em;
+}
+#uno{
+    flex-direction: column;
+}
+#uno #carouselExampleFade img{
+    width: 26em !important;
+    height: 19em;
+}
+
+#uno #carouselExampleFade{
+    width: 25em;
+    height: 20em;
+}
+
+#uno #primero .card{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+#uno #carouselExampleFadedos img{
+    width: 26em !important;
+    height: 19em;
+}
+#uno #carouselExampleFadedos{
+    width: 25em;
+    height: 20em;
+}
+
+#dos{
+    flex-direction: column;
+}
+
+#dos #carouselExampleFadetres video{
+    width: 26em !important;
+    height: 19em;
+}
+#dos #carouselExampleFadetres{
+    width: 25em;
+    height: 20em;
+}
+
+#dos #tercero .card{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+#dos #carouselExampleFadecuatro img{
+    width: 26em !important;
+    height: 19em;
+}
+#dos #carouselExampleFadecuatro{
+    width: 25em;
+    height: 20em;
+}
+
+}
